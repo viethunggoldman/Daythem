@@ -1,0 +1,35 @@
+Tổng hợp công thức chương 2
+Phân phối đều rời rạc
+f(xi) = 1/n 
+E(x) = a+b/2
+V[x] = (b-a+1)^2 - 1 / 12
+Phân phối nhị thức
+f(x) = P(X=x) = xCn p^x (1-p)^(n-x), x = 0,1,2,..,n
+X ~ B(n,p)
+E(x) = np
+V(x) = np(1-p)
+- Siêu hình
+f(x) = P(X=x) = xCM . (n-x C N-M) / nCN
+E(X) = np
+V(x) =  np(1-p)(N-n/N-1)
+Với p = M/N
+X ~ H(n,M,N)
+- Hình học
+f(x) = p(1-p)^(x-1) 
+X ~ G(p)
+E(X) = 1/p 
+V(X) = 1-p/p^2
+-TÍnh chất ko nhớ
+P(X > s + t | X > s) = P(X > t) với s, t là các số thực
+- Phân phối nhị thức âm
+r: số phép thử thành công
+p : xác suất để phép thử thành công
+f(x) = (r-1)C(x-1) (1-p)^(x-r).p^r, x = r,r+1,r+2
+X ~ NB(r,p)
+E(X) = r/p
+V(X) = r(1-p)/p^2
+Phân phối Poison:
+f(x) = e^(-ld) . (ld)^x / x!
+X ~ P (ld)
+E(X) = ld
+V(X)= ld
